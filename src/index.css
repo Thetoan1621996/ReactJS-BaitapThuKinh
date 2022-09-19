@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app {
+  background-image: url(./glassesImage/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.model {
+  background-image: url(./glassesImage/model.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 600px;
+}
+.model img {
+  position: absolute;
+  top: 34%;
+  left: 7%;
+  width: 238px;
+  height: 85px;
+  opacity: 0.9;
+}
+.content {
+  text-align: center;
+  color: red;
+  font-size: 40px;
+}
+.infor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 30%;
+  color: white;
+  padding: 10px 0;
+  display: block;
+}
+.infor p,
+.infor h3 {
+  padding: 0 10px;
+  font-size: 20px;
+}
+.infor h3 {
+  font-size: 30px;
+  color: yellow;
+}
+.product {
+  width: 800px;
+  height: 100px;
+  background-color: brown;
+  position: absolute;
+  left: 500px;
+  bottom: 0;
+  border-radius: 20px;
+  padding: 30px 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.div-flex {
+  display: flex;
+  align-items: center;
+}
+
+.product img {
+  width: 90%;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+.product h3{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
 }
